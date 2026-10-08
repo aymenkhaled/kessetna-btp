@@ -20,4 +20,3 @@ Version 0.4.6 is for Windows 10/11 on 64-bit PCs. Its installer is currently uns
 For a product demonstration or installation support, contact us through [WhatsApp](https://wa.me/21626286045?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20Kessetna%20BTP.).
 
 This repository contains distribution information and release assets only. It does not contain the Kessetna BTP source code or any licensing material.
-Official Windows installer downloads for Kessetna BTP
