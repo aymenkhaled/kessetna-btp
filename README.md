@@ -6,9 +6,9 @@ Kessetna BTP helps you follow equipment leaving the depot, rentals by client and
 
 ## Download
 
-Open [Releases](../../releases) and download `Kessetna-BTP-Setup.exe` from the latest published version. The matching `.sha256.txt` file lets you verify that the installer is intact.
+Download the latest published installer: [**Kessetna BTP v0.4.7 for Windows**](https://github.com/aymenkhaled/kessetna-btp/releases/download/v0.4.7/Kessetna-BTP-Setup.exe). You can also open [Releases](../../releases) to check for newer builds. The matching `.sha256.txt` file lets you verify that the installer is intact.
 
-Version 0.4.6 is for Windows 10/11 on 64-bit PCs. Its installer is currently unsigned, so Windows may show an "Unknown publisher" message. Download only from this repository or [kessetna.com](https://kessetna.com).
+Version 0.4.7 is for Windows 10/11 on 64-bit PCs. Its installer is currently unsigned, so Windows may show an "Unknown publisher" message. Download only from this repository or [kessetna.com](https://kessetna.com).
 
 ## Install
 
