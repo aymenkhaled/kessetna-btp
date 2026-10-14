@@ -6,7 +6,7 @@ Kessetna BTP is a local Windows application for businesses that rent constructio
 
 ## Download
 
-Current stable release: **0.5.3**, published 2026-10-13.
+Current stable release: **0.5.4**, published 2026-10-14.
 
 [Download the latest stable installer](https://github.com/aymenkhaled/kessetna-btp/releases/latest) from the official Releases page. Select `Kessetna-BTP-Setup.exe` and the matching `.sha256.txt` file from the same release. Older versions and release notes remain in [Releases](https://github.com/aymenkhaled/kessetna-btp/releases).
 
