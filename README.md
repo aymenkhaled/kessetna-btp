@@ -1,22 +1,26 @@
-# Kessetna BTP downloads
+# Kessetna BTP — official Windows downloads
 
-This repository publishes the official Windows installer for Kessetna BTP, a local application for BTP equipment-rental businesses.
+[Discover Kessetna BTP](https://kessetna.com/fr/btp/) · [Arabic product page](https://kessetna.com/ar/btp/)
 
-Kessetna BTP helps you follow equipment leaving the depot, rentals by client and chantier, partial returns, payments, cautions, damages, and missing equipment. Your daily work remains on the Windows PC, including when internet is unavailable.
+Kessetna BTP is a local Windows application for businesses that rent construction equipment. Follow equipment availability, reservations, rental dispatch, partial returns, payments, refundable deposits, damage and repairs. Local staff PIN accounts, permissions and an attributed activity history help the depot organise its work.
 
 ## Download
 
-Download the latest published installer: [**Kessetna BTP v0.4.7 for Windows**](https://github.com/aymenkhaled/kessetna-btp/releases/download/v0.4.7/Kessetna-BTP-Setup.exe). You can also open [Releases](../../releases) to check for newer builds. The matching `.sha256.txt` file lets you verify that the installer is intact.
+Current stable release: **0.5.3**, published 2026-10-13.
 
-Version 0.4.7 is for Windows 10/11 on 64-bit PCs. Its installer is currently unsigned, so Windows may show an "Unknown publisher" message. Download only from this repository or [kessetna.com](https://kessetna.com).
+[Download the latest stable installer](https://github.com/aymenkhaled/kessetna-btp/releases/latest) from the official Releases page. Select `Kessetna-BTP-Setup.exe` and the matching `.sha256.txt` file from the same release. Older versions and release notes remain in [Releases](https://github.com/aymenkhaled/kessetna-btp/releases).
 
-## Install
+Windows 10/11, x64. The application supports French, English and Arabic. The available business currencies are TND, EUR, USD, GBP and JPY; it does not convert exchange rates or use multiple currencies in one business database.
 
-1. Download the installer and its checksum from the same release.
-2. Verify the checksum if you need to confirm the file's integrity.
-3. Run the installer on the PC that will manage the equipment depot.
-4. Create a backup before installing a future update.
+Normal rental operations continue without Internet, with business data stored locally on the depot's PC. Internet is used for downloads, updates and optional usage analytics, which can be disabled in Settings. This is not a multi-PC cloud synchronisation service.
 
-For a product demonstration or installation support, contact us through [WhatsApp](https://wa.me/21626286045?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20Kessetna%20BTP.).
+## Installation and checksum
 
-This repository contains distribution information and release assets only. It does not contain the Kessetna BTP source code or any licensing material.
+1. Download only through the official product page or this repository's Releases.
+2. Compare the installer SHA-256 with its matching checksum file, for example with PowerShell `Get-FileHash -Algorithm SHA256 -LiteralPath '.\Kessetna-BTP-Setup.exe'`.
+3. Back up existing business data before upgrading, then run the installer.
+4. Create regular backups on another storage device. Local storage is not a substitute for backups.
+
+The installer is unsigned and Windows may display an unknown-publisher warning. Contact support through the [official product page](https://kessetna.com/fr/btp/) if you need installation or demo assistance.
+
+This public repository contains distribution information and installer assets, not private application source or licensing/signing materials.
